@@ -1,0 +1,25 @@
+.header{
+    font-family: 'Acme', sans-serif;
+}
+.header-txt{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+.content-container{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-top: 150px;
+    font-size: 5rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .header{
+        width: 98%;
+    }
+    .content-container{
+        font-size: 2rem;
+    }
+}
