@@ -26,6 +26,9 @@
     padding-left: 600px;
     font-size: 3rem;
 }
+.arrows:hover{
+    color: crimson;
+}
 @media screen and (max-width: 600px) {
     .header{
         width: 100%;
