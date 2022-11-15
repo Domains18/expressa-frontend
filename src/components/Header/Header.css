@@ -1,25 +1,46 @@
 .header{
     font-family: 'Acme', sans-serif;
+    height: 100vh;
 }
 .header-txt{
     display: flex;
     justify-content: flex-start;
     padding: 20px;
+    padding-bottom: 80px;
 }
 .content-container{
-    flex-direction: column;
-    align-items: center;
     display: flex;
-    padding-top: 150px;
-    font-size: 5rem;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 2rem;
 }
-
-
+.new-text{
+    padding: 40px;
+    padding-bottom: 0;
+    width: 78%;
+}
+.typewriter{
+    margin: auto;
+}
+.arrows{
+    padding-left: 600px;
+    font-size: 3rem;
+}
 @media screen and (max-width: 600px) {
     .header{
-        width: 98%;
+        width: 100%;
     }
     .content-container{
-        font-size: 2rem;
+        align-items: center;
+        font-size: 18px;
+    }
+    .typewriter{
+        margin: auto;
+        padding: 0;
+        padding-top: 40px;
+    }
+    .arrows{
+        font-size: 1.5rem;
+        padding-left: 150px;
     }
 }
