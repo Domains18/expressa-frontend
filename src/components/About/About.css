@@ -1,0 +1,42 @@
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us {
+    width: 100%;
+    display: flex;
+    gap: 15rem;
+}
+.about-us img{
+    width: 30%;
+    height: 30%;
+    background-size: contain;
+    padding: 80px;
+}
+.content-about{
+    padding-top: 40px;
+}
+.gallery{
+    display: grid;
+    padding-right: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+article{
+    padding: 20px;
+    width: auto;
+    height: 150px;
+    background: #273b66;
+    border: 2px #6f7c99 solid;
+    border-radius: 8px;
+}
+article:hover{
+    background: transparent;
+}
+
+/*======================================= Media screen=================================================*/
+
+@media screen and (max-width: 600px) {
+    
+}

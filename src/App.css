@@ -7,3 +7,6 @@ body{
   box-sizing: border-box;
   background: #0b1a3b;
 }
+html{
+  scroll-behavior: smooth;
+}

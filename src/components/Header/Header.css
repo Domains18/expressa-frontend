@@ -1,6 +1,5 @@
 .header{
     font-family: 'Acme', sans-serif;
-    height: 100vh;
 }
 .header-txt{
     display: flex;
@@ -23,7 +22,8 @@
     margin: auto;
 }
 .arrows{
-    padding-left: 600px;
+    padding-left: 800px;
+    padding-bottom: 50px;
     font-size: 3rem;
 }
 .arrows:hover{
