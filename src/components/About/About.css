@@ -1,3 +1,6 @@
+#about{
+    margin-bottom: 20px;
+}
 .title-container{
     display: flex;
     justify-content: center;
@@ -9,14 +12,14 @@
     gap: 15rem;
 }
 .about-us img{
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     background-size: contain;
     padding: 80px;
 }
-.content-about{
+/* .content-about{
     padding-top: 40px;
-}
+} */
 .gallery{
     display: grid;
     padding-right: 40px;
@@ -45,7 +48,8 @@ article:hover{
     }
     .about-us img{
         width: 80%;
-        padding: 40px;
+        padding-left: 0;
+        padding: 30px;
         padding-bottom: 0;
         height: 100%;
     }
