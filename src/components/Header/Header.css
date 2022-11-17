@@ -21,6 +21,10 @@
 .typewriter{
     margin: auto;
 }
+q{
+    text-decoration: disabled;
+    color: red;
+}
 .arrows{
     display: flex;
     justify-content: center;

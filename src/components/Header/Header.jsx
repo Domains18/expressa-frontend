@@ -15,8 +15,12 @@ const Header = () => {
                 <Typewriter
                 options={{
                     strings: [
-                        'Hello', 'welcome to scribe'
-                        , 'For all your writing needs'
+                        
+                        'welcome to scribe' 
+                        , 'For all your writing needs',
+                        `Reach Us Today`, 
+                        `Call us: <q>+254757387606</q>`
+                        `Email us: <q>gibsonsgibson88@gmail.com</q>`
                     ],
                     autoStart: true,
                     loop: true
