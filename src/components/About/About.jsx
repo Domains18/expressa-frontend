@@ -13,31 +13,35 @@ const About = () => {
             <img src={image} alt="" />
             <div className="content-about">
               <div className="title-container">
-                <h1>what we do</h1>
+                <h1>Quick Links</h1>
               </div>
               <div className="gallery">
                 <article>
                   <div className="title">
                     <h2>Quality Writing</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, facere.
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, facere.</p>
+                    <div><a href="/">Learn More</a></div>
                   </div>
                 </article>
                 <article>
                   <div className="title">
                     <h2>Quality Writing</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, iusto?</p>
+                    <div><a href="/">Learn More</a></div>
                   </div>
                 </article>
                 <article>
                   <div className="title">
                     <h2>Quality Writing</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, veritatis?</p>
+                    <div><a href="/">Learn More</a></div>
                   </div>
                 </article>
                 <article>
                   <div className="title">
                     <h2>Quality Writing</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, veritatis?</p>
+                    <div><a href="/">Learn More</a></div>
                   </div>
                 </article>
               </div>

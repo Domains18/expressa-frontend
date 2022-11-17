@@ -29,10 +29,15 @@
 article{
     padding: 20px;
     width: auto;
+    font-size: 16px;
     height: 150px;
     background: #273b66;
     border: 2px #6f7c99 solid;
     border-radius: 8px;
+}
+article h2{
+    font-size: 16px;
+    text-decoration: underline;
 }
 article:hover{
     background: transparent;

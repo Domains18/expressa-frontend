@@ -1,6 +1,15 @@
 .header{
     font-family: 'Acme', sans-serif;
 }
+a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 1.7rem;
+    color: lightcyan;
+}
 .header-txt{
     display: flex;
     justify-content: flex-start;
@@ -21,7 +30,7 @@
 .typewriter{
     margin: auto;
 }
-q{
+span{
     color: red;
 }
 .arrows{

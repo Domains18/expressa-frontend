@@ -18,6 +18,9 @@ const Header = () => {
                         
                         'Hello', 'welcome to scribe' 
                         , 'For all your writing needs',
+                        'Talk to us', 
+                        'call: +254757387606',
+                        'Email: gibsonsgibson88@gmail.com'
                     ],
                     autoStart: true,
                     loop: true
