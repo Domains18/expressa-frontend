@@ -1,9 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
 #services{
-
+    min-height: 100vh;
     
 }
-
-.service-container{
+.wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 0 0 20px 20px;
+}
+.story-box{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 16px;
+    background: #273b66;
+    padding: 20px;
+    border: 2px #6f7c99 solid;
+    border-radius: 8px;
+    width: 500px;
+}
+.story-box:hover{
+    background-color: transparent;
+}
+.services{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.service-name{
+    width: 250px;
+    background: #273b66;
+    padding: 20px;
+    border: 2px #6f7c99 solid;
+    border-radius: 8px;
 }
