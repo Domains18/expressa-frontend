@@ -1,4 +1,25 @@
 import React from 'react'
+import 'swiper/css'
+import 'swiper/css/pagination'
+
+
+import { Pagination } from 'swiper'
+import {Swiper, SwiperSlide} from 'swiper/react'
+
+
+
+
+const data = [{
+    StoryTitle: 'Stories We Tell',
+    content: 'Lorem ipsum dolor, sit amet consecteturadipisicing elit.Est esse fugiat enim odio accusamus obcaecati qui possimus quo laudantium veritatis, quibusdam, aut itaque ex id dolore, quam voluptas laborum maxime?',
+
+},{
+    StoryTitle: 'Stories We Tell',
+    content: 'Lorem ipsum dolor, sit amet consecteturadipisicing elit.Est esse fugiat enim odio accusamus obcaecati qui possimus quo laudantium veritatis, quibusdam, aut itaque ex id dolore, quam voluptas laborum maxime?',
+}
+]
+
+
 
 const Stories = () => {
     return (
@@ -6,24 +27,28 @@ const Stories = () => {
             <div className="service-container">
                 <h1>Our Services</h1>
             </div>
-            <div className="wrapper">
-                <div className="story-box">
-                    <div className="story-head">
-                        <h2>Wanna Write?</h2>
-                        <div className="story-content">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci distinctio dolorem odio rem ex et in consectetur architecto ipsam porro minima corrupti, voluptatum enim pariatur id sed consequatur quibusdam. Cupiditate aut corrupti consectetur in saepe neque sapiente ex ipsum aspernatur veniam, dignissimos fugit excepturi deleniti ipsam nemo, vero illum dolorum.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="story-box">
-                    <div className="story-head">
-                        <h2>Stories We tell</h2>
-                        <div className="story-content">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci distinctio dolorem odio rem ex et in consectetur architecto ipsam porro minima corrupti, voluptatum enim pariatur id sed consequatur quibusdam. Cupiditate aut corrupti consectetur in saepe neque sapiente ex ipsum aspernatur veniam, dignissimos fugit excepturi deleniti ipsam nemo, vero illum dolorum.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Swiper className="wrapper"
+            modules={[Pagination]}
+            spaceBetween={40}
+            slidesPerView={1}
+            pagination={{clickable: true}}
+            >
+                {
+                    data.map(({StoryTitle, content})=>{
+                        return(
+                            <SwiperSlide className="story-box">
+                                <div className="story-head">
+                                    <h2>{StoryTitle}</h2>
+                                    <div className="story-content">
+                                        <p>{content}</p>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                        )
+                    })
+                }
+                
+            </Swiper>
         </>
     )
 }

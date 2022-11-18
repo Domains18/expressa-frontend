@@ -3,10 +3,14 @@
     min-height: 100vh;
     
 }
-.wrapper{
+.service-container{
     display: flex;
-    justify-content: space-around;
-    padding: 0 0 20px 20px;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 40%;
+    padding-bottom: 4rem;
 }
 .story-box{
     font-family: 'El Messiri', sans-serif;
@@ -15,8 +19,8 @@
     padding: 20px;
     border: 2px #6f7c99 solid;
     border-radius: 8px;
-    width: 500px;
 }
+
 .story-box:hover{
     background-color: transparent;
 }
@@ -32,3 +36,4 @@
     border: 2px #6f7c99 solid;
     border-radius: 8px;
 }
+
