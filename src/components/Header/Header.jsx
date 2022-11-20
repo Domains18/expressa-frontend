@@ -1,43 +1,24 @@
-import React from 'react';
-import {HiOutlineArrowNarrowDown} from 'react-icons/hi'
-import './Header.css' 
+import React from 'react'
 import Typewriter from 'typewriter-effect'
+import './Header.css'
 const Header = () => {
   return (
-    <div className="header">
-        <div className="header-txt">
-            <h1>Scribe Studio</h1>
-        </div>
-
-        {/* body */}
-        <div className="content-container">
-            <div className="typewriter">
-                <Typewriter
-                options={{
-                    strings: [
-                        
-                        'Hello', 'welcome to scribe' 
-                        , 'For all your writing needs',
-                        'Talk to us', 
-                        'call: +254757387606',
-                        'Email: gibsonsgibson88@gmail.com'
-                    ],
-                    autoStart: true,
-                    loop: true
-                }}
-            />
-            </div>
-            <div className="new-text">
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam earum exercitationem dolorem neque praesentium! Ipsam iusto hic illo officia consequuntur, molestias animi perspiciatis quaerat obcaecati voluptatem placeat quae dolorum, eum explicabo reprehenderit commodi dignissimos nostrum et. Sint modi ullam laudantium?
-                </p>
-            </div>
-        </div>
-        <div className="arrows">
-            <HiOutlineArrowNarrowDown/>
-            <HiOutlineArrowNarrowDown/>
-            <HiOutlineArrowNarrowDown/>
-        </div>
+    <div id='Header'>
+        <section>
+              <div class="content">
+                  <Typewriter
+                  options={{
+                    strings: ["Hello, Welcome to Scribe Studio",
+                            "Write to us: sribeug@gmail.com",
+                            'Call Us: +25674475478'
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  }}
+                  />
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, ducimus alias quas eveniet iste deleniti possimus nostrum ratione nulla similique assumenda voluptatem a consectetur, tenetur laborum quia optio, magnam dolorum.</p>
+              </div>
+        </section>
     </div>
   )
 }

@@ -5,7 +5,7 @@ body{
   margin: 0;
   color: #fff;
   box-sizing: border-box;
-  background: #0b1a3b;
+  background: linear-gradient(#023522, #1b335f);
 }
 html{
   scroll-behavior: smooth;

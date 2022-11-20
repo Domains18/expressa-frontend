@@ -53,8 +53,8 @@ article:hover{
     }
     .about-us img{
         width: 80%;
-        padding-left: 0;
-        padding: 30px;
+        margin: auto;
+        padding: 0 50px;
         padding-bottom: 0;
         height: 100%;
     }
