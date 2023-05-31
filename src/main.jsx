@@ -3,8 +3,27 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+// *** React Router ***
+//eslint-disable-next-line
+import { BrowserRouter,  Routes, Route, Link} from 'react-router-dom'
+
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Dashboard from './components/Dashboard/Dashboard.js'
+import MyProfile from './components/Profile/MyProfile.js'
+import Error from './Pages/Error/Error.js'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route  path="/" element={<App/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/dashboard" element={<Dashboard/>} />
+        <Route path="/myprofile"  element={<MyProfile/>} />
+        <Route path="*" element={Error} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
 )

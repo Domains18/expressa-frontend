@@ -3,7 +3,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+   <nav className=' flex-auto  sm: bg-slate-300' ></nav>
   )
 }
 
