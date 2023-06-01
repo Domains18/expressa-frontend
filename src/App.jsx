@@ -1,8 +1,12 @@
+//eslint-disable-next-line
 import React from 'react'
+import Nav from './components/Nav/Nav'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Nav />
+    </div>
   )
 }
 

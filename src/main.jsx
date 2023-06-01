@@ -7,11 +7,15 @@ import './index.css'
 //eslint-disable-next-line
 import { BrowserRouter,  Routes, Route, Link} from 'react-router-dom'
 
+
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Dashboard from './components/Dashboard/Dashboard.js'
 import MyProfile from './components/Profile/MyProfile.js'
 import Error from './Pages/Error/Error.js'
+import SignUp from './settings/auth/SignUp.js'
+import Auth from './settings/auth/Auth.js'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -22,7 +26,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/contact" element={<Contact/>} />
         <Route path="/dashboard" element={<Dashboard/>} />
         <Route path="/myprofile"  element={<MyProfile/>} />
-        <Route path="*" element={Error} />
+        <Route path="*" element={<Error />} />
+        <Route path="/auth" element={<Auth />} />
+        <Route path="/auth/signup" element={<SignUp />}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
