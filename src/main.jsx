@@ -6,7 +6,7 @@ import './index.css'
 // *** React Router ***
 //eslint-disable-next-line
 import { BrowserRouter,  Routes, Route, Link} from 'react-router-dom'
-
+import './global/globals.fonts.css'
 
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';

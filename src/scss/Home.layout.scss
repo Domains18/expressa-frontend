@@ -1,5 +1,7 @@
 .home{
-    padding-top: 100px;
+    padding-top: 20px;
+    background-color: #caf1ee;
+    height: 100vh;
     .upperHome{
         width: 100%;
         display: flex;
@@ -23,6 +25,26 @@
 
             p{
                 cursor: pointer;
+                font-size: 20px;
+
+                &:hover{
+                    color: #FFB800;
+                }
+            }
+            .bold-option{
+                font-weight: bold;
+                font: 1em sans-serif;
+                color: #fff;
+                background-color: #0cc4ac;
+                display: flex;
+                width: 200px;
+                justify-content: center;
+                align-items: center;
+                padding-top: 0;
+                cursor: pointer;
+                &:hover{
+                    background-color: #FFB800;
+                }
             }
         }
     }

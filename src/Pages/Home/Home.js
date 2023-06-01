@@ -13,9 +13,14 @@ const Home = () => {
                     <p>About us</p>
                     <p>Services</p>
                     <p>Reach Out</p>
-                    <p>Patner</p>
-                    <div className="bold-option">JOIN US</div>
+                    <p>Patners</p>
+                    <div className="bold-option">
+                        GET STARTED
+                    </div>
                 </div>
+            </div>
+            <div className="lowerHome">
+                
             </div>
         </div>
     )
