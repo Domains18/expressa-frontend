@@ -1,5 +1,6 @@
 //eslint-disable-next-line
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../../scss/home.layouts.scss'
 
 const Home = () => {
@@ -10,10 +11,10 @@ const Home = () => {
                     <img src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1" alt="logo" />
                 </div>
                 <div className="right-options">
-                    <p>About us</p>
+                    <p> <Link to="/ourprofile">About Us</Link> </p>
                     <p>Contribute</p>
                     <p>Reach Out</p>
-                    <p>Patners</p>
+                    <p>Faqs</p>
                     <div className="bold-option">
                         GET STARTED
                     </div>
