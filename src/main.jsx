@@ -16,7 +16,6 @@ import Error from './Pages/Error/Error.js'
 import SignUp from './settings/auth/SignUp.js'
 import Auth from './settings/auth/Auth.js'
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
