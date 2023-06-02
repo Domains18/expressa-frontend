@@ -10,7 +10,7 @@ import './global/globals.fonts.css'
 
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
-import Dashboard from './components/Dashboard/Dashboard.js'
+import Dashboard from './Layouts/Dashboard/Dashboard.js'
 import MyProfile from './components/Profile/MyProfile.js'
 import Error from './Pages/Error/Error.js'
 import SignUp from './settings/auth/SignUp.js'

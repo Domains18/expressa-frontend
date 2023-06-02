@@ -1,6 +1,6 @@
 //eslint-disable-next-line
 import React from 'react'
-import '../../scss/Home.layout.scss'
+import '../../scss/home.layouts.scss'
 
 const Home = () => {
     return (

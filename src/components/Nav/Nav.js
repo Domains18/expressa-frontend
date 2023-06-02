@@ -1,6 +1,6 @@
 //eslint-disable-next-line
 import React from 'react'
-import '../../scss/Nav.scss'
+import '../../scss/nav.components.scss'
 const Nav = () => {
   return (
     <nav className=' nav ' >
