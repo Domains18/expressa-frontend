@@ -11,7 +11,7 @@ const Home = () => {
                 </div>
                 <div className="right-options">
                     <p>About us</p>
-                    <p>Services</p>
+                    <p>Contribute</p>
                     <p>Reach Out</p>
                     <p>Patners</p>
                     <div className="bold-option">
@@ -20,8 +20,22 @@ const Home = () => {
                 </div>
             </div>
             <div className="lowerHome">
-                
+                <div className="banner">
+                    <div className="banner-text">
+                        <h1>
+                            Using Tech and Engineering to beat scammers, fraud and ingenuine PSVs in kenyan public transport
+                        </h1>
+                        <p>
+                            We are a team of engineers and tech enthusiasts who are passionate about solving the problem of ingenuine PSVs in kenyan public transport
+                        </p>
+                    </div>
+                </div>
+                <div className="nav-buttons">
+                <button>Developer </button>
+                <button>Developer</button>
             </div>
+            </div>
+            
         </div>
     )
 }
