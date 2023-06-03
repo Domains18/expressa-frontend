@@ -1,0 +1,28 @@
+.error-container{
+    background-color: #caf1ee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .error-title{
+        color:  #ffb800;
+
+        span{
+            font-size: 100px;
+        }
+    }
+    .error-content{
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+
+        span{
+            color: #0cc4ac;
+        }
+        .home-link{
+            color: #ffb800;
+            text-decoration: underline;
+        }
+    }
+}
