@@ -8,9 +8,12 @@ import React from 'react';
 const Footer = () => {
 
     return (
-        <div>
-            <h1> Footer</h1>
-        </div>
+        <section>
+            <div className="left">Get Help</div>
+            <div className="center">Quick Links</div>
+            <div className="right">Right</div>
+
+        </section>
     )
 }
 
